@@ -5,17 +5,17 @@
 	soft-parent
 	│
 	├──module	--- 模块划分
-	│    └─ merchant	--- 商家模块
-	│			├── merchant-dao		--- 商家平台dao包
-	│			│   ├── merchant-dao-api	--- 商家平台dao接口
-	│			│   └── merchant-dao-impl	--- 商家平台dao实现
+	│    └─ demo	--- demo模块
+	│			├── demo-dao		--- dao包
+	│			│   ├── demo-dao-api	--- dao接口
+	│			│   └── demo-dao-impl	--- dao实现
 	│			│
-	│			├── merchant-service		--- 商家平台service包
-	│			│   ├── merchant-service-api
-	│			│   └── merchant-service-impl
+	│			├── demo-service		--- service包
+	│			│   ├── demo-service-api
+	│			│   └── demo-service-impl
 	│			│
 	├──web	--- web划分
-	│    └─ merchant-web	--- 商家平台web程序
+	│    └─ demo-web	--- web程序
 
 
 # 项目所使用的框架及技术
@@ -28,9 +28,7 @@
 * Mybatis
 * jQuery
 * Maven
-* Netty 4 (已在commons-socket中进行相应操作的封装)
 * shiro
-* SUI (淘宝的开源手机H5框架：<http://m.sui.taobao.org>)
 
 # spring/dubbo 配置约定
 
@@ -51,15 +49,15 @@
    
 1. git 新增示例
 
-    新增：新增购买电子卡功能，选择面值（或自定义金额）、卡面进行购买电子卡。新增数据库xxx表，新增xxx配置文件。新增xxx数据字典。
+    新增：新增数据库xxx表，新增xxx配置文件。新增xxx数据字典。
 
 2. git 修改示例
 
-    修改：修改购买电子卡流程，当支付成功后调用C端开卡接口失败时循环N次调用（JOB定时任务）。
+    修改：修改XXX功能。
 
 3. git 删除示例
 
-    删除：删除订单定义的水印电子卡图片字段，同时删除数据库ecard_order表pan_img_url字段。
+    删除：删除XXX功能，同时删除数据库XXX表XXX字段。
 
 4. git BUG(ID)示例
 
@@ -67,7 +65,7 @@
 
 5. git 特殊示例
     
-    特殊：因领导需要演示需临时屏蔽支付功能，点击购卡跳跃支付步骤直接开卡。后续需设置关开参数。
+    特殊：因领导需要演示需临时屏蔽支付功能，点击下单跳跃支付步骤直接开卡。后续需设置关开参数。
 
 5. git 其它情况
 

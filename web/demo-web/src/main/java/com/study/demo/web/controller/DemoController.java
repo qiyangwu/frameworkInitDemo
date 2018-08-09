@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -25,12 +26,13 @@ public class DemoController {
     private DemoDao demoDao;
 
     @RequestMapping(value = "query", method = RequestMethod.GET)
-    @ResponseBody
-    public String view(HttpServletRequest request, HttpServletResponse response) {
+    public ModelAndView view(HttpServletRequest request, HttpServletResponse response) {
         log.info("6666666666666666");
         demoService.query();
         log.info("%%%%%%%%#############");
-        return "success";
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/active-url-add");
+        return modelAndView;
     }
 
 }

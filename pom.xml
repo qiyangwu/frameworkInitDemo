@@ -73,7 +73,7 @@
         <bcprov.version>1.54</bcprov.version>
         <javamail.version>1.4.7</javamail.version>
         <thymeleaf.extras.version>2.0.0</thymeleaf.extras.version>
-        <commons-collections.version>3.2</commons-collections.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
     </properties>
 
     <profiles>

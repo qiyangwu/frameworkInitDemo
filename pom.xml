@@ -67,7 +67,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <jodd.version>3.6.1</jodd.version>
         <htm-message-serializable.version>2.0.0</htm-message-serializable.version>
-        <quartz.version>2.2.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <ehcache.version>2.10.0</ehcache.version>
         <guava.version>19.0</guava.version>
         <bcprov.version>1.54</bcprov.version>

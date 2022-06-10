@@ -43,7 +43,7 @@
         <commons-pool2.version>2.3</commons-pool2.version>
         <commons-pool.version>1.6</commons-pool.version>
         <jedis.version>2.1.0</jedis.version>
-        <dubbo.version>2.5.3</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <netty.version>4.1.9.Final</netty.version>
         <hibernateValidator.version>4.3.2.Final</hibernateValidator.version>
         <javax.validation.version>1.1.0.Final</javax.validation.version>

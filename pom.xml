@@ -63,7 +63,7 @@
         <net.mingsoft.version>0.1</net.mingsoft.version>
         <jxls-core.version>1.0.5</jxls-core.version>
         <commons.fileupload.version>1.3.3</commons.fileupload.version>
-        <poi.version>3.9</poi.version>
+        <poi.version>4.1.1</poi.version>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <jodd.version>3.6.1</jodd.version>
         <htm-message-serializable.version>2.0.0</htm-message-serializable.version>
